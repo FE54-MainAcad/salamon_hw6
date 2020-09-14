@@ -2,8 +2,8 @@
     padding: 0 64px 0 64px;
     width: 90vw;
     height: 54px;
-    background-color: aquamarine;
     display: flex;
+    justify-content: space-between;
 
     &__logo{
         height: 54px;
@@ -30,6 +30,29 @@
             border-bottom-color: black;
             border-bottom-style: solid;
             border-bottom-width: 2px;
+        }
+    }
+
+    &__right{
+        display: flex;
+        align-items: flex-end;
+
+        &__nav{
+            margin-bottom: 15px;
+
+            &__item{
+                text-decoration: none;
+                color: black;
+                margin-left: 10px;
+                margin-right: 10px;
+                font-size: 12px;
+            }
+
+            &__item:hover{
+                border-bottom-color: black;
+                border-bottom-style: solid;
+                border-bottom-width: 2px;    
+            }
         }
     }
 }
