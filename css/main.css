@@ -1,0 +1,127 @@
+.main {
+  padding: 0 64px 0 64px;
+  width: calc(100%-128px);
+}
+
+.main__news {
+  position: relative;
+}
+
+.main__news__img {
+  margin-bottom: 10px;
+}
+
+.main__news > img {
+  width: 1152px;
+}
+
+.main__news__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: calc(50%);
+  margin-left: 60px;
+}
+
+.main__news__text > h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: -40px;
+  padding-top: 36px;
+  margin-bottom: 4px;
+}
+
+.main__news__text > p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+.main__news__text > button {
+  width: 210px;
+  height: 25px;
+  margin-top: 24px;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.main__products {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__products__block {
+  width: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.main__products__block:first-of-type {
+  padding-left: 0px;
+}
+
+.main__products__block > h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 36px;
+  cursor: pointer;
+}
+
+.main__products__block > p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+.main__products__block > img {
+  width: 270px;
+  height: 151px;
+  cursor: pointer;
+}
+
+.main__products__block > a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #0067b8;
+  text-decoration: none;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.main__products__block > a:hover {
+  border-bottom-color: #0067b8;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  width: 169px;
+}
+
+.main__text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.main__news__img {
+  margin-top: 40px;
+}
+/*# sourceMappingURL=main.css.map */
